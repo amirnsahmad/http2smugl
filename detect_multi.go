@@ -65,7 +65,7 @@ func pushDetectJobs(targets []string, queue chan<- *DetectParams) {
 				continue
 			}
 			for _, pm := range PaddingMethods {
-				for _, rm := range []string{"POST", "OPTIONS", "GET"} {
+				for _, rm := range []string{"POST", "OPTIONS", "GET","HEAD"} {
 					variants := sm.GetVariants()
 					for _, v := range variants {
 						for _, target := range targets {
