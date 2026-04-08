@@ -1,4 +1,4 @@
-module github.com/neex/http2smugl
+module github.com/amirnsahmad/http2smugl
 
 go 1.23.4
 
